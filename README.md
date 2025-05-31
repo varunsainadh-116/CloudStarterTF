@@ -34,32 +34,29 @@
 
   2. Clone the Project via Git
 
-    ```bash
-    git clone https://github.com/varunsainadh-116/CloudStarterTF.git
-    ```
+  ```bash
+  git clone https://github.com/varunsainadh-116/CloudStarterTF.git
+  ```
         
   3. To get started, first change directory:
-      ```commandline
-      cd CloudStarterTF
-      ```
-    
-  4. Terraform Core Commands:
-    Format & Validate Code :
+   ```
+   cd CloudStarterTF
+   ```
+  5. Format & Validate Code :
 
-    ```commandline
-      terraform fmt       # Formats Terraform code
-      terraform validate  # Validates Terraform syntax
-    ```
+  ```commandline
+  terraform fmt       # Formats Terraform code
+  terraform validate  # Validates Terraform syntax
+  ```
   5. Plan & Apply Infrastructure
-    ```commandline
-      terraform plan                  # Shows execution plan without applying
-      terraform apply                 # Creates/updates infrastructure
-      terraform apply -auto-approve  # Applies without manual confirmation
-
-    ```
+  ```commandline
+  terraform plan                  # Shows execution plan without applying
+  terraform apply                 # Creates/updates infrastructure
+  terraform apply -auto-approve  # Applies without manual confirmation
+  ```
   6. Destroy Infrastructure
-    ```commandline
-      terraform destroy               # Destroys all managed resources
-      terraform destroy -auto-approve  # Without confirmation
-    ```
+  ```commandline
+  terraform destroy               # Destroys all managed resources
+  terraform destroy -auto-approve  # Without confirmation
+  ```
 
